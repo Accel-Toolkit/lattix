@@ -49,7 +49,8 @@ def main(argv: list[str]) -> int:
     (ROOT / "CHANGELOG.md").write_text(log)
 
     readme = (ROOT / "README.md").read_text()
-    readme = re.sub(r"(raw\.githubusercontent\.com/Accel-Toolkit/lattix/)[^/]+(/docs/assets/)", rf"\g<1>{tag}\g<2>", readme)
+    readme = re.sub(r"(raw\.githubusercontent\.com/Accel-Toolkit/lattix/)[^/]+(/docs/assets/)",
+                    rf"\g<1>{tag}\g<2>", readme)
     readme = re.sub(r"! lattix \d[\w.+!-]* from IR", f"! lattix {v} from IR", readme)
     (ROOT / "README.md").write_text(readme)
 
