@@ -7,6 +7,8 @@ and are listed under the version they rehearse.
 
 ## [Unreleased]
 
+## [0.2.0] - 2026-09-15
+
 ### Added
 - TraceWin: a trailing comment on an element card travels with the element and is written back;
   a comment that names the card (`; 4.898 HKV MONITOR`, `; D1`) names an unlabelled element and

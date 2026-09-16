@@ -1,9 +1,9 @@
 <p align="center">
-  <img src="https://raw.githubusercontent.com/Accel-Toolkit/lattix/main/docs/assets/readme-hero.png" alt="lattix: twenty-eight accelerator lattice formats connected through one intermediate representation" width="880">
+  <img src="https://raw.githubusercontent.com/Accel-Toolkit/lattix/v0.2.0/docs/assets/readme-hero.png" alt="lattix: twenty-eight accelerator lattice formats connected through one intermediate representation" width="880">
 </p>
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/Accel-Toolkit/lattix/main/docs/assets/readme-badges.png" alt="BSD 3-Clause, Python 3.11 and above, 28 formats, 17 engines, 590 ledger codes" width="760">
+  <img src="https://raw.githubusercontent.com/Accel-Toolkit/lattix/v0.2.0/docs/assets/readme-badges.png" alt="BSD 3-Clause, Python 3.11 and above, 28 formats, 17 engines, 590 ledger codes" width="760">
 </p>
 
 # lattix
@@ -35,7 +35,7 @@ became markers because Elegant has no equivalent type, and one TraceWin directiv
 Nothing was lost silently. The written file carries the reference particle so it can be read back:
 
 ```
-! lattix 0.1.0 from IR
+! lattix 0.2.0 from IR
 ! lattix: reference species="h-" mass_eV=939294086.06 charge=-1 kinetic_energy_eV=2100000 rf_frequency_Hz=352210000
 
 DRIFT_0001: DRIF, L=0.1
@@ -48,7 +48,7 @@ you want in a script. Add `--report out.json` and the whole ledger lands in a fi
 ## Twenty-eight formats
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/Accel-Toolkit/lattix/main/docs/assets/readme-formats.png" alt="The formats grouped into linac codes, ring codes, the modern Python stack, and the eight reached through Bmad's converters" width="900">
+  <img src="https://raw.githubusercontent.com/Accel-Toolkit/lattix/v0.2.0/docs/assets/readme-formats.png" alt="The formats grouped into linac codes, ring codes, the modern Python stack, and the eight reached through Bmad's converters" width="900">
 </p>
 
 Twenty of them work in both directions. Six can only be written and two can only be read, which is a
@@ -72,7 +72,7 @@ a Bmad installation present. The other twenty need nothing beyond lattix.
 ## The ledger
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/Accel-Toolkit/lattix/main/docs/assets/readme-ledger.png" alt="A fidelity ledger: each element marked exact, equivalent, lossy or dropped, with a named code" width="900">
+  <img src="https://raw.githubusercontent.com/Accel-Toolkit/lattix/v0.2.0/docs/assets/readme-ledger.png" alt="A fidelity ledger: each element marked exact, equivalent, lossy or dropped, with a named code" width="900">
 </p>
 
 Every element in every conversion is marked exact, equivalent, lossy or dropped, and each mark carries a
@@ -87,7 +87,7 @@ you got before you run anything.
 ## Checked against the real codes
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/Accel-Toolkit/lattix/main/docs/assets/readme-validation.png" alt="Thirteen engines compared against MAD-X on one bend line, agreement plotted on a logarithmic scale" width="900">
+  <img src="https://raw.githubusercontent.com/Accel-Toolkit/lattix/v0.2.0/docs/assets/readme-validation.png" alt="Thirteen engines compared against MAD-X on one bend line, agreement plotted on a logarithmic scale" width="900">
 </p>
 
 lattix does not take its own word for it. The same lattice is written out for as many of the
